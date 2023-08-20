@@ -1,6 +1,9 @@
 import json
 import csv
+import datetime
+from note import Note
 
+#набор методов для работы с заметками
 class NoteService:
     def __init__(self, filename):
         self.filename = filename
